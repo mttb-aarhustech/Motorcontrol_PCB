@@ -179,7 +179,8 @@
       ],
       "track_widths": [
         0.0,
-        0.35
+        0.35,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -466,6 +467,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.4572,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -473,7 +491,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "/H Bridge/GNDPWR_{out}"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/H Bridge/Out_{1}"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+24V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/H Bridge/Out_{2}"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -596,6 +631,10 @@
     [
       "78ba1051-b673-42a0-97cc-c42edd42c782",
       "H Bridge"
+    ],
+    [
+      "9a899f9c-4b9e-4e7e-9606-ff04f850276b",
+      "PSU"
     ]
   ],
   "text_variables": {}
