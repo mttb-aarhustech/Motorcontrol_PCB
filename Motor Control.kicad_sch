@@ -23,13 +23,63 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 50.8) (xy 151.13 50.8)
+			(xy 114.3 50.8) (xy 127 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39734c13-c60d-4188-94a6-5d5114bfc888")
+		(uuid "290d00e7-8476-481b-b6bb-03ef33a3ec24")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 127 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32087d6d-dfc4-4f27-ae6e-0fd605f89574")
+	)
+	(wire
+		(pts
+			(xy 114.3 120.65) (xy 127 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39899996-c124-46ee-867a-cc8bf22b89f5")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 127 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bb1116-74d3-4df8-a853-b6986750e5a2")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 121.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e59b00-ea79-4f9f-bc15-fe146d5c6ae8")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 127 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b87c47b-74f3-427d-8662-5e2d73fefd35")
 	)
 	(wire
 		(pts
@@ -53,6 +103,36 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 129.54) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a516179-7e40-4ce1-a2c4-429283f68a86")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00cc38c-82f4-4c14-be06-76848e092b3d")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30702a2-fddc-48b8-a643-938fbbc6d740")
+	)
+	(wire
+		(pts
 			(xy 73.66 88.9) (xy 73.66 101.6)
 		)
 		(stroke
@@ -60,6 +140,26 @@
 			(type default)
 		)
 		(uuid "a47d4108-e58f-4e7a-a19a-4ca6e834cd52")
+	)
+	(wire
+		(pts
+			(xy 114.3 115.57) (xy 127 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb9bad5-5679-4500-b425-852d77924963")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 121.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff849c4a-43d1-4fc7-9c20-417e313af277")
 	)
 	(sheet
 		(at 25.4 101.6)
@@ -127,6 +227,86 @@
 		(pin "P1D" output
 			(at 73.66 101.6 90)
 			(uuid "bad5dbb0-5143-494a-bd41-f04b395fdceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AN0" input
+			(at 114.3 105.41 0)
+			(uuid "65cb9da8-7982-4961-b119-955a6e248590")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 114.3 120.65 0)
+			(uuid "f21b2346-9e05-463b-8283-9cd0b714a940")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA{slash}SDI" input
+			(at 114.3 118.11 0)
+			(uuid "771e0a63-261a-47bd-bb00-6ff7e0a4b7c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDO" output
+			(at 114.3 115.57 0)
+			(uuid "af8371ef-6472-40f3-81c1-c9766ae56351")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWA" input
+			(at 114.3 132.08 0)
+			(uuid "2ae2cabb-c64d-4baa-a7e2-f1b5c6693d6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWB" input
+			(at 114.3 134.62 0)
+			(uuid "2745ede0-df52-4150-ac06-454de3413763")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWS" input
+			(at 114.3 129.54 0)
+			(uuid "d899c73a-d108-4ec3-bdfa-56ba76a663a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISP" output
+			(at 114.3 113.03 0)
+			(uuid "fb9861fb-155d-4153-8ecc-e8ddc18be4ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,8 +414,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 113.03)
-		(size 100.33 44.45)
+		(at 127 101.6)
+		(size 88.9 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -250,7 +430,7 @@
 		)
 		(uuid "8050a139-abb0-4450-a33e-db857d70c5ca")
 		(property "Sheetname" "Disp & encoder"
-			(at 128.27 112.3184 0)
+			(at 127 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,12 +439,82 @@
 			)
 		)
 		(property "Sheetfile" "dispEncoder.kicad_sch"
-			(at 128.27 158.0646 0)
+			(at 127 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DISP" input
+			(at 127 113.03 180)
+			(uuid "535ac944-0427-4cdc-be51-eb4a86c5805c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 127 120.65 180)
+			(uuid "f728e69b-8fee-4fe1-9876-cc40031e6904")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA{slash}SDI" output
+			(at 127 118.11 180)
+			(uuid "89281b96-e2c4-4752-8513-404435a29a0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" input
+			(at 127 115.57 180)
+			(uuid "dcb964ed-7bea-450b-b46f-6562530385cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWA" output
+			(at 127 132.08 180)
+			(uuid "cea2fe98-65c5-4c61-a512-b40621436422")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWB" output
+			(at 127 134.62 180)
+			(uuid "468ab31d-02ef-4458-930d-48cb9d431eb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWS" output
+			(at 127 129.54 180)
+			(uuid "6c384b23-672e-46db-86ba-708cd7a7ab69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -276,8 +526,8 @@
 		)
 	)
 	(sheet
-		(at 151.13 30.48)
-		(size 78.74 53.34)
+		(at 127 38.1)
+		(size 88.9 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -292,7 +542,7 @@
 		)
 		(uuid "9a899f9c-4b9e-4e7e-9606-ff04f850276b")
 		(property "Sheetname" "PSU"
-			(at 151.13 29.7684 0)
+			(at 127 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +551,7 @@
 			)
 		)
 		(property "Sheetfile" "PSU.kicad_sch"
-			(at 151.13 84.4046 0)
+			(at 127 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +560,7 @@
 			)
 		)
 		(pin "AN0" output
-			(at 151.13 73.66 180)
+			(at 127 83.82 180)
 			(uuid "8b04cc19-af72-476b-aa20-ec3beb681eda")
 			(effects
 				(font
@@ -320,7 +570,7 @@
 			)
 		)
 		(pin "GNDPWR_{out}" passive
-			(at 151.13 50.8 180)
+			(at 127 50.8 180)
 			(uuid "9326bf57-a567-42f7-96ad-e3f76d0a7d73")
 			(effects
 				(font
