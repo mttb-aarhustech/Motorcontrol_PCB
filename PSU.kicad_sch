@@ -7,7 +7,7 @@
 	(title_block
 		(title "Motor Control")
 		(date "2025-07-03")
-		(rev "0.1.0")
+		(rev "1.0")
 		(company "AARHUS TECH")
 	)
 	(lib_symbols
@@ -4800,7 +4800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "User:TO-220-3_Horizontal_TabDown_HoleToCenter"
 			(at 93.98 76.2 0)
 			(effects
 				(font

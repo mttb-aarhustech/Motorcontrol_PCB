@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "358ec33a-734e-4140-82ac-60b6ed5de0b7")
 	(paper "A4")
+	(title_block
+		(title "Motor Control")
+		(rev "1.0")
+		(company "AARHUS TECH")
+	)
 	(lib_symbols
 		(symbol "74xx:74AHC595"
 			(exclude_from_sim no)

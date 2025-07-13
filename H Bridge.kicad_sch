@@ -7,7 +7,7 @@
 	(title_block
 		(title "Motor Control")
 		(date "2025-07-03")
-		(rev "0.1.0")
+		(rev "1.0")
 		(company "AARHUS TECH")
 	)
 	(lib_symbols
@@ -5563,7 +5563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "User:TO-220-3_Horizontal_TabDown_HoleToCenter"
 			(at 139.7 69.215 0)
 			(effects
 				(font
@@ -5850,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "User:TO-220-3_Horizontal_TabDown_HoleToCenter"
 			(at 157.48 118.745 0)
 			(effects
 				(font
@@ -6538,7 +6538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "User:TO-220-3_Horizontal_TabDown_HoleToCenter"
 			(at 158.75 69.215 0)
 			(effects
 				(font
@@ -7883,7 +7883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "User:TO-220-3_Horizontal_TabDown_HoleToCenter"
 			(at 139.7 118.745 0)
 			(effects
 				(font
@@ -7940,7 +7940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0fce57c-994a-4b8f-b7c0-374d216476b4")
-		(property "Reference" "U110"
+		(property "Reference" "U210"
 			(at 57.15 50.8 0)
 			(effects
 				(font
@@ -8008,7 +8008,7 @@
 		(instances
 			(project "Motor Control"
 				(path "/287fa568-d091-4161-b3b2-3036dfbfe9fa/78ba1051-b673-42a0-97cc-c42edd42c782"
-					(reference "U110")
+					(reference "U210")
 					(unit 1)
 				)
 			)
