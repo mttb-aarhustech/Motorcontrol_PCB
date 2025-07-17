@@ -492,7 +492,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_drill": 0.15,
         "wire_width": 6
       },
       {
@@ -507,7 +507,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_drill": 0.15
       },
       {
         "bus_width": 12,
@@ -523,7 +523,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_drill": 0.15,
         "wire_width": 6
       }
     ],
