@@ -3260,6 +3260,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf7ae0c5-fe51-41fc-876f-9cfbeadc50a8")
 		)
@@ -3322,6 +3340,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 130.81 100.33 0)
 			(effects
 				(font
@@ -3412,6 +3448,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 118.11 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 118.11 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,6 +3609,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f50d62b-40bf-4034-9cb2-d543ed28904c")
 		)
@@ -3616,6 +3688,24 @@
 		)
 		(property "Description" ""
 			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1085055"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,6 +3792,24 @@
 		)
 		(property "Description" ""
 			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 241.3 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 241.3 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,6 +3955,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62ae2787-ef4c-4c78-9eba-c55eec6208e1")
 		)
@@ -3982,6 +4108,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 195.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 195.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4417bd5-7bbc-4488-a607-703a28c34529")
 		)
@@ -4052,6 +4196,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 250.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 250.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce7a73a2-4136-4129-a0d3-9b385ecdc5c8")
 		)
@@ -4113,6 +4275,24 @@
 		)
 		(property "Description" "Fuse"
 			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 62.23 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 62.23 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,6 +4379,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 93.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 93.98 72.39 0)
 			(effects
 				(font
@@ -4341,6 +4539,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 190.5 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 190.5 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "054ac7d2-647f-4e70-8620-cbcd2e9f8eed")
 		)
@@ -4403,6 +4619,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 143.51 100.33 0)
 			(effects
 				(font
@@ -4482,6 +4716,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12dacf78-4f95-4a08-a4bd-2e1145a35b42")
 		)
@@ -4552,6 +4804,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9802ea14-2c4e-4159-ac8a-d0a80a93b063")
 		)
@@ -4613,6 +4883,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 46.99 85.09 0)
 			(effects
 				(font
@@ -4721,7 +5009,7 @@
 				)
 			)
 		)
-		(property "Value" "L78L05_TO92"
+		(property "Value" "L78L05"
 			(at 157.48 78.74 0)
 			(effects
 				(font
@@ -4749,6 +5037,24 @@
 			)
 		)
 		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "885-5423"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "RS"
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -4828,6 +5134,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" "168-8786"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "RS"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "de86a110-c599-4d4d-80f0-1fa977905f9a")
 		)
@@ -4892,6 +5216,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 167.64 100.33 0)
 			(effects
 				(font

@@ -4734,6 +4734,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 204.47 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 204.47 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c3ca674-8d00-4284-bbe4-88b2c6ea5cdd")
 		)
@@ -4804,6 +4822,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 204.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 204.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f71de28-4ba7-4104-94af-c049405ad315")
 		)
@@ -4865,6 +4901,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 214.63 116.84 0)
 			(effects
 				(font
@@ -4943,6 +4997,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "903c3b92-fee7-436c-b862-919e404518ed")
 		)
@@ -5013,6 +5085,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ba09795-8083-40b3-bc6f-d2a013ff4da0")
 		)
@@ -5075,6 +5165,24 @@
 			)
 		)
 		(property "Description" "USB to I2C/UART Protocol Converter with GPIO, DIP-14"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "171-7757"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "RS"
 			(at 195.58 77.47 0)
 			(effects
 				(font
@@ -5323,6 +5431,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 69.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 69.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7e63938-0ed7-4b7e-b821-69a2f38c1e07")
 		)
@@ -5385,6 +5511,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 90.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 90.17 69.85 0)
 			(effects
 				(font
@@ -5660,6 +5804,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d0d541b5-13dc-4f32-9bb2-f7a3d483b075")
 		)
@@ -5730,6 +5892,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 196.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 196.85 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 196.85 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,6 +5988,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "892fea0a-1532-4bd2-b2a3-a434fb72b58f")
 		)
@@ -5870,6 +6068,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 213.36 52.07 0)
 			(effects
 				(font
@@ -6147,6 +6363,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" "887-7252"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "RS"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60f7249e-1019-460a-b884-dcdab759b7b7")
 		)
@@ -6293,6 +6527,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 254 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 254 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be58aa43-ed50-45fd-8cf7-05bf80929238")
 		)
@@ -6366,6 +6618,24 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core, small symbol"
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 171.45 90.17 0)
 			(effects
 				(font
@@ -6567,6 +6837,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 95.25 158.75 0)
 			(effects
 				(font
@@ -6844,6 +7132,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 224.79 71.12 0)
 			(effects
 				(font
