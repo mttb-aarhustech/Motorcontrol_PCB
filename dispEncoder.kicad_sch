@@ -3087,7 +3087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "135-8304"
 			(at 66.04 100.33 0)
 			(effects
 				(font
@@ -3096,7 +3096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "RS"
 			(at 66.04 100.33 0)
 			(effects
 				(font
@@ -3176,7 +3176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "1218634"
 			(at 243.84 77.47 0)
 			(effects
 				(font
@@ -3185,7 +3185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Farnell"
 			(at 243.84 77.47 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "05.000.0510 "
 			(at 119.38 77.47 0)
 			(effects
 				(font
@@ -3382,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Cypax"
 			(at 119.38 77.47 0)
 			(effects
 				(font
@@ -3725,7 +3725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "05.000.0510 "
 			(at 88.9 77.47 0)
 			(effects
 				(font
@@ -3734,7 +3734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Cypax"
 			(at 88.9 77.47 0)
 			(effects
 				(font
@@ -3811,7 +3811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "781-6830"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -3820,7 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "RS"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -3911,7 +3911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "135-8304"
 			(at 130.81 100.33 0)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "RS"
 			(at 130.81 100.33 0)
 			(effects
 				(font
@@ -4000,7 +4000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "05.000.0510 "
 			(at 80.01 77.47 0)
 			(effects
 				(font
@@ -4009,7 +4009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Cypax"
 			(at 80.01 77.47 0)
 			(effects
 				(font
@@ -4088,7 +4088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "135-8304"
 			(at 198.12 71.12 0)
 			(effects
 				(font
@@ -4097,7 +4097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "RS"
 			(at 198.12 71.12 0)
 			(effects
 				(font
@@ -4207,7 +4207,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "20k"
 			(at 262.89 63.4999 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "167-3259"
 			(at 260.35 62.23 0)
 			(effects
 				(font
@@ -4252,7 +4252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "RS"
 			(at 260.35 62.23 0)
 			(effects
 				(font
@@ -4334,7 +4334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "135-8304"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "RS"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -4420,7 +4420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "05.000.0410 "
 			(at 58.42 93.98 90)
 			(effects
 				(font
@@ -4429,7 +4429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Cypax"
 			(at 58.42 93.98 90)
 			(effects
 				(font
@@ -4506,7 +4506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "05.000.0410 "
 			(at 71.12 83.82 90)
 			(effects
 				(font
@@ -4515,7 +4515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Cypax"
 			(at 71.12 83.82 90)
 			(effects
 				(font
@@ -4592,7 +4592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" ""
+		(property "Part number" "05.000.0410 "
 			(at 125.73 83.82 90)
 			(effects
 				(font
@@ -4601,7 +4601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Cypax"
 			(at 125.73 83.82 90)
 			(effects
 				(font
