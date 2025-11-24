@@ -3194,7 +3194,7 @@
 		)
 		(uuid "32cadef9-cdbf-4d7d-8400-fd9f63121451")
 	)
-	(hierarchical_label "AN0"
+	(hierarchical_label "AN"
 		(shape output)
 		(at 252.73 99.06 0)
 		(effects

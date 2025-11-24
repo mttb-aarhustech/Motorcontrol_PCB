@@ -51,8 +51,43 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|115095000|122715000|0ffc25a0-424f-4e7e-82b9-5b653bf0aaa6|a5a0e610-19a4-4a96-81a6-16c39b5a980b",
+          ""
+        ],
+        [
+          "courtyards_overlap|118635000|122885000|0ffc25a0-424f-4e7e-82b9-5b653bf0aaa6|700e5aa4-f4d2-42d5-acb1-b5641fc5b228",
+          "Extra header for UART"
+        ],
+        [
+          "courtyards_overlap|158255000|24305000|8df44018-b536-4d0c-b518-9b609f62aefb|d4fce751-cef5-4aac-862e-fe28dc7aa43a",
+          ""
+        ],
+        [
+          "courtyards_overlap|168415000|24305000|5e9fa62d-39b4-4ea3-90ea-7f83a2c91cb0|8df44018-b536-4d0c-b518-9b609f62aefb",
+          ""
+        ],
+        [
+          "starved_thermal|113030000|139700000|bedbeeb2-1f23-4157-bc64-745eae3e09c5|6c884a4a-4e55-4e04-a5c8-b8b54ca51b4a|F.Cu",
+          "2 spokes on B.Cu"
+        ],
+        [
+          "starved_thermal|117475000|151765000|bedbeeb2-1f23-4157-bc64-745eae3e09c5|1920d5ab-efe3-495c-ac50-2dd0ec0f5b86|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|120650000|97790000|bedbeeb2-1f23-4157-bc64-745eae3e09c5|f2b81afe-66ce-4944-8400-e9ee017b288d|B.Cu",
+          "2 spokes on F.cu"
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -84,7 +119,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -182,7 +217,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.35,
+        1.0,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -209,7 +249,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.15
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -443,6 +492,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -454,7 +504,7 @@
   },
   "meta": {
     "filename": "Motor Control.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -469,6 +519,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -486,6 +537,7 @@
         "microvia_drill": 0.1,
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 1.0,
@@ -503,6 +555,7 @@
         "microvia_drill": 0.1,
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 1.0,
@@ -511,7 +564,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -545,10 +598,10 @@
     "bom_export_filename": ".\\BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": "\t",
+      "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "---",
+      "name": "CSV",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""

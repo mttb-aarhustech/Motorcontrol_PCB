@@ -1,0 +1,33 @@
+P1A			BC
+P1B			BC
+P1C			BC
+P1D
+
+PGC			RB6
+PGD			RB7
+~MCLR			E
+
+SWS	I/O	
+SWA	I/O
+SWB	I/O
+
+AN0	Analog in 
+Vref-	RA2
+
+T1CLK			AC
+
+RX1			BC		
+TX1			BC
+BOOT	I/O
+
+DISP	I/O
+SDO1			BC
+SCK1			BC
+
+SDA (i2c)		BC
+SCL (i2c)		BC
+
+SDO2			BC
+SDI2			BC
+SCK2			BC
+SS2			A

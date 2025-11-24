@@ -73,6 +73,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66aea732-a424-403c-873d-139a475630ae")
+	)
+	(wire
+		(pts
 			(xy 114.3 132.08) (xy 127 132.08)
 		)
 		(stroke
@@ -113,16 +123,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 118.11) (xy 127 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00cc38c-82f4-4c14-be06-76848e092b3d")
-	)
-	(wire
-		(pts
 			(xy 127 83.82) (xy 121.92 83.82)
 		)
 		(stroke
@@ -149,7 +149,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "eeb9bad5-5679-4500-b425-852d77924963")
+		(uuid "a8b68ad5-81cb-47c5-a09c-97274777e1d4")
 	)
 	(wire
 		(pts
@@ -234,39 +234,9 @@
 				(justify right)
 			)
 		)
-		(pin "AN0" input
+		(pin "AN" input
 			(at 114.3 105.41 0)
 			(uuid "65cb9da8-7982-4961-b119-955a6e248590")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCL" output
-			(at 114.3 120.65 0)
-			(uuid "f21b2346-9e05-463b-8283-9cd0b714a940")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA{slash}SDI" input
-			(at 114.3 118.11 0)
-			(uuid "771e0a63-261a-47bd-bb00-6ff7e0a4b7c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDO" output
-			(at 114.3 115.57 0)
-			(uuid "af8371ef-6472-40f3-81c1-c9766ae56351")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -304,9 +274,49 @@
 				(justify right)
 			)
 		)
-		(pin "DISP" output
+		(pin "DISP_{SS}" output
 			(at 114.3 113.03 0)
-			(uuid "fb9861fb-155d-4153-8ecc-e8ddc18be4ff")
+			(uuid "53ebd511-cd88-47de-bbcd-ce7e43fc19f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI_1" output
+			(at 25.4 115.57 180)
+			(uuid "4a0217db-01b9-46c2-8596-015d2de44e71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_1" output
+			(at 114.3 120.65 0)
+			(uuid "de334316-a1af-4488-8d0f-3674d7701558")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI_{1}{slash}PGD" output
+			(at 114.3 115.57 0)
+			(uuid "d027b320-adec-4fa1-b327-990609c5f6e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_{1}{slash}PGC" output
+			(at 114.3 118.11 0)
+			(uuid "6714c129-8cd2-4b73-a5f7-f8f69de757fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,39 +457,9 @@
 				(justify left top)
 			)
 		)
-		(pin "DISP" input
-			(at 127 113.03 180)
-			(uuid "535ac944-0427-4cdc-be51-eb4a86c5805c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SCL" input
 			(at 127 120.65 180)
 			(uuid "f728e69b-8fee-4fe1-9876-cc40031e6904")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA{slash}SDI" output
-			(at 127 118.11 180)
-			(uuid "89281b96-e2c4-4752-8513-404435a29a0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDO" input
-			(at 127 115.57 180)
-			(uuid "dcb964ed-7bea-450b-b46f-6562530385cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -510,6 +490,36 @@
 		(pin "SWS" output
 			(at 127 129.54 180)
 			(uuid "6c384b23-672e-46db-86ba-708cd7a7ab69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_{SS}" input
+			(at 127 113.03 180)
+			(uuid "70125427-318e-4863-8e09-26069f27cd5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI{slash}PGD" input
+			(at 127 115.57 180)
+			(uuid "1ccc54ce-2c91-4773-a254-b93ada3ab6af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL{slash}PGC" input
+			(at 127 118.11 180)
+			(uuid "df210907-3578-4036-819d-194de41e8857")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +569,7 @@
 				(justify left top)
 			)
 		)
-		(pin "AN0" output
+		(pin "AN" output
 			(at 127 83.82 180)
 			(uuid "8b04cc19-af72-476b-aa20-ec3beb681eda")
 			(effects
