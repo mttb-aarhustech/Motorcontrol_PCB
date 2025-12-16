@@ -1,33 +1,45 @@
-P1A			BC
-P1B			BC
-P1C			BC
-P1D
+P1A			BC	RC2	
+P1B			BC	RB2	
+P1C			BC	RB1
+P1D			BC	RB4
 
-PGC			RB6
-PGD			RB7
-~MCLR			E
+PGC			RB6	RB6
+PGD			RB7	RB7
+~MCLR			E	RE3
 
-SWS	I/O	
-SWA	I/O
-SWB	I/O
+SWS	I/O			
+SWA	I/O			
+SWB	I/O			
 
-AN0	Analog in 
-Vref-	RA2
+AN0	Analog in 		
+Vref-	RA2			RA2
 
-T1CLK			AC
+T1CLK			AC	RC0
 
-RX1			BC		
-TX1			BC
-BOOT	I/O
+RX1			BC	RC7 -> RC6	x	
+TX1			BC	RC6 -> RC7	x
+BOOT	I/O			
 
 DISP	I/O
-SDO1			BC
-SCK1			BC
+SDO1			BC	RC5
+SCK1			BC	RC3
 
 SDA (i2c)		BC
 SCL (i2c)		BC
 
-SDO2			BC
+SDO2			BC	
 SDI2			BC
 SCK2			BC
 SS2			A
+
+Fri
+
+
+
+Icons
+0xe,0x11,0x13,0x15,0x19,0x11,0xe,0x1f	0
+0x4,0xc,0x4,0x4,0x4,0x4,0xe,0x1f	1
+
+
+
+			

@@ -1006,7 +1006,7 @@
 			(net 3 "/H Bridge/Out_{1}")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "2518d36d-0cc4-4667-91dd-8e04c199a956")
+			(uuid "02d30d2e-aef0-4c16-8e37-1d0958b0b3d3")
 		)
 		(pad "3" thru_hole oval
 			(at 5.08 0 270)
@@ -2715,7 +2715,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.5 90)
+			(at 2.5 0 90)
 			(layer "F.Fab")
 			(uuid "649ab916-ab37-4dc9-9d55-0df9a3b74de3")
 			(effects
@@ -2845,7 +2845,7 @@
 			(uuid "257bc021-69d9-44d2-b3e3-b621b7f96765")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 90)
+			(at 7.342 0 180)
 			(layer "F.Fab")
 			(uuid "9d433b5f-e9f6-40b0-bc60-cbf08f1e62f5")
 			(effects
@@ -3299,7 +3299,7 @@
 			(net 2 "GNDD")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "57f7a40c-c528-48c2-985b-d362159dd397")
+			(uuid "1a9eb759-81be-457d-bb12-6277fa693d2b")
 		)
 		(pad "S1" thru_hole circle
 			(at 14.5 5 180)
@@ -4963,6 +4963,7 @@
 		(property "Value" "Conn_01x02_Socket"
 			(at 2.54 4.1 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "dacee3bb-7a05-4d0a-9e7a-bba186d1abe6")
 			(effects
 				(font
@@ -5469,7 +5470,7 @@
 			(uuid "ab8541b7-f9f7-4dab-8ffe-8a4cdf352e80")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -3.65 0)
+			(at 2.54 4.318 0)
 			(layer "F.Fab")
 			(uuid "f390dc70-b527-4fb2-902a-66f2a2eb00ec")
 			(effects
@@ -10998,7 +10999,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 0 2.52 0)
+			(at 0 -2.525 0)
 			(layer "F.Fab")
 			(uuid "aadbadff-f178-4589-835b-75bd8061f833")
 			(effects
@@ -11159,7 +11160,7 @@
 			(uuid "473c66b6-8fe9-469d-ab0e-592fa23c755b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3.018 -2.54 90)
+			(at 0 -3.683 0)
 			(layer "F.Fab")
 			(uuid "be89669b-8a90-42e2-ad12-3a88f0787afa")
 			(effects
@@ -11836,13 +11837,13 @@
 			(at -78.28 -23.46 270)
 			(size 1 3)
 			(layers "F.Cu" "F.Mask")
-			(uuid "77465393-abd7-4bb8-bc49-0aca6e551218")
+			(uuid "c5ee57af-d4a3-4583-885b-6b8573fc1394")
 		)
 		(pad "17" smd rect
 			(at -78.28 -23.46 270)
 			(size 1 3)
 			(layers "B.Cu" "B.Mask")
-			(uuid "77465393-abd7-4bb8-bc49-0aca6e551218")
+			(uuid "9828fae9-6343-49e5-8344-941424a45c50")
 		)
 		(pad "17" thru_hole rect
 			(at -78.28 -20.96 270)
@@ -11850,7 +11851,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "77465393-abd7-4bb8-bc49-0aca6e551218")
+			(uuid "f8f7637f-dcf0-46b1-94fe-1a6a3544fd3d")
 		)
 		(pad "18" thru_hole rect
 			(at -78.28 -15.08 270)
@@ -11864,13 +11865,13 @@
 			(at -78.28 -12.54 270)
 			(size 1 3)
 			(layers "F.Cu" "F.Mask")
-			(uuid "33df6731-6d6b-45f0-b88b-407bf775a973")
+			(uuid "035f5730-6dff-4b09-a0a5-bc749c92bb84")
 		)
 		(pad "18" smd rect
 			(at -78.28 -12.54 270)
 			(size 1 3)
 			(layers "B.Cu" "B.Mask")
-			(uuid "33df6731-6d6b-45f0-b88b-407bf775a973")
+			(uuid "7be5f942-3bab-4bcb-8fa7-b4b8ee0f984b")
 		)
 		(pad "18" thru_hole rect
 			(at -78.28 -10 270)
@@ -11878,7 +11879,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "33df6731-6d6b-45f0-b88b-407bf775a973")
+			(uuid "b479dbe4-15d6-4a74-8d68-ab49c381e467")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/WC1602A.step"
@@ -15772,7 +15773,7 @@
 			(net 8 "+24V")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "51aaac3b-3a12-43ca-8bb9-b0eabec00bc1")
+			(uuid "8d1c5507-80b2-414a-a5dd-c71def4caecb")
 		)
 		(pad "3" thru_hole oval
 			(at 5.08 0 270)
@@ -16021,6 +16022,7 @@
 		(property "Value" "Conn_01x02_Socket"
 			(at 2.54 4.1 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7f1fab04-51ef-46c1-9fc3-78b551612405")
 			(effects
 				(font
@@ -16529,7 +16531,7 @@
 			(uuid "a78e8247-92fa-4306-a3a6-0bb3c0925bc0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -3.65 0)
+			(at 3.048 4.378 0)
 			(layer "F.Fab")
 			(uuid "6b9efe1e-2ac6-4075-adc0-82491bfb5158")
 			(effects
@@ -17912,7 +17914,7 @@
 			)
 		)
 		(property "Value" "74AHC595"
-			(at 3.81 20.11 0)
+			(at 5.08 9.144 90)
 			(layer "F.Fab")
 			(uuid "3b592ebb-58d3-4081-a526-62b48adb8d50")
 			(effects
@@ -18122,7 +18124,7 @@
 			(uuid "d7caf57c-7e04-470a-8653-4031328b4e92")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 8.89 90)
+			(at 2.54 9.144 90)
 			(layer "F.Fab")
 			(uuid "2ea639f0-fec2-4a0e-82a5-a0b11f8c376d")
 			(effects
@@ -20977,7 +20979,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.5 90)
+			(at 2.5 0 270)
 			(layer "F.Fab")
 			(uuid "aeb45133-37a0-4867-9a2b-fe04c3e351e4")
 			(effects
@@ -21107,7 +21109,7 @@
 			(uuid "a48c1280-ad34-4590-b212-33fae05576b5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 90)
+			(at -2.31 0 180)
 			(layer "F.Fab")
 			(uuid "da852c41-cbe8-4b1d-ab27-7a4863bf7916")
 			(effects
@@ -22966,7 +22968,7 @@
 			(size 5.7 5.7)
 			(layers "F.Cu" "F.Mask")
 			(zone_connect 2)
-			(uuid "742009ed-b633-437b-9cff-77d0ac5a9aaf")
+			(uuid "1cd343d8-4b24-4348-a10b-048f10c1432d")
 		)
 		(embedded_fonts no)
 	)
@@ -23554,7 +23556,7 @@
 			(size 5.7 5.7)
 			(layers "F.Cu" "F.Mask")
 			(zone_connect 2)
-			(uuid "24b203c7-7614-42f7-a579-44b7c402b748")
+			(uuid "cea078be-012d-42af-82ee-95b6593167b5")
 		)
 		(embedded_fonts no)
 	)
@@ -24129,7 +24131,7 @@
 			(net 8 "+24V")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "2ee518bd-80ff-4675-a6c6-bbe593a34800")
+			(uuid "ea5c5189-1965-4747-ab53-5909b0f682de")
 		)
 		(pad "3" thru_hole oval
 			(at 5.08 0 270)
@@ -24648,7 +24650,7 @@
 			(size 5.7 5.7)
 			(layers "F.Cu" "F.Mask")
 			(zone_connect 2)
-			(uuid "d00c0da8-9af1-4738-a19d-4df7685e1ac5")
+			(uuid "17fb2970-c867-407a-b2d5-cb5917aeac3c")
 		)
 		(embedded_fonts no)
 	)
@@ -24673,6 +24675,7 @@
 		(property "Value" "Conn_01x02_Socket"
 			(at 2.54 4.1 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3ec99f2e-ad38-45ae-bc00-834c873b394c")
 			(effects
 				(font
@@ -25181,7 +25184,7 @@
 			(uuid "b534a11a-0182-4f9c-82fb-9bbbde57fbae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -3.65 0)
+			(at 3.302 4.378 0)
 			(layer "F.Fab")
 			(uuid "71e8b613-589d-41a2-ad8d-c14e228d092d")
 			(effects
@@ -26066,7 +26069,7 @@
 			(net 6 "/H Bridge/Out_{2}")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "dcd1cf5b-1774-4db0-a1c2-93e01c44e6b9")
+			(uuid "462c1957-1475-4d86-b0af-e93c5fffca52")
 		)
 		(pad "3" thru_hole oval
 			(at 5.08 0 270)
@@ -27000,7 +27003,7 @@
 			(size 5.7 5.7)
 			(layers "F.Cu" "F.Mask")
 			(zone_connect 2)
-			(uuid "b485aaaa-5b9c-40ac-b911-0541de82a5f9")
+			(uuid "61c64a9b-6426-4cb6-99b8-a1fc0f6955a6")
 		)
 		(embedded_fonts no)
 	)
@@ -29070,6 +29073,7 @@
 		(property "Value" "Conn_01x05_Pin"
 			(at -4.38 12.93 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "71f1be74-7ce5-4971-8587-c4685df5d456")
 			(effects
 				(font
@@ -29784,7 +29788,7 @@
 			(uuid "5f5cfbcd-b0bf-4ceb-a487-5b35b06dfcc4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.775 5.08 0)
+			(at 2.032 10.16 0)
 			(layer "F.Fab")
 			(uuid "90d663a8-1ecb-48af-8baa-f77e36241534")
 			(effects
@@ -30433,7 +30437,7 @@
 			(net 4 "+12V")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "61f6059f-a8ac-405d-a474-680c1cce48c6")
+			(uuid "f1ac6021-e5c0-4372-8c48-89b1e7ceea39")
 		)
 		(pad "3" thru_hole oval
 			(at 5.08 0 270)
@@ -31215,7 +31219,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.5 0)
+			(at 8.81 -0.127 0)
 			(layer "F.Fab")
 			(uuid "6f24bc0c-813c-40a1-ae9e-fb1eaf1d7637")
 			(effects
@@ -32664,7 +32668,7 @@
 			(net 71 "Net-(J411-Shield)")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "07997b77-10d1-4647-8a54-42753622d748")
+			(uuid "31b3b21f-3d3a-47c9-8cac-7b9db4899cc5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_B_TE_5787834_Vertical.step"
@@ -34598,6 +34602,7 @@
 		(property "Value" "Conn_01x02_Socket"
 			(at 2.54 4.1 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6f669746-2a11-4f14-86f6-560a3860cf8e")
 			(effects
 				(font
@@ -35106,7 +35111,7 @@
 			(uuid "f281bf02-0f26-45d4-9077-f13fd65aad3b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -3.65 0)
+			(at 2.794 4.378 0)
 			(layer "F.Fab")
 			(uuid "31978436-6c03-4398-818b-49c89f761a38")
 			(effects
@@ -36310,7 +36315,7 @@
 			)
 		)
 		(property "Value" "HCPL7510"
-			(at 3.81 9.95 0)
+			(at 3.81 3.81 90)
 			(layer "F.Fab")
 			(uuid "3a625a8e-cc51-4108-9775-764e04bfa0fc")
 			(effects
@@ -36521,7 +36526,7 @@
 			(uuid "ede16c0d-a0d6-49ba-9035-a0f19057d1e1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 3.81 0)
+			(at 3.81 -2.413 0)
 			(layer "F.Fab")
 			(uuid "40c47609-544e-42ca-98f9-71bb5f1e23be")
 			(effects
